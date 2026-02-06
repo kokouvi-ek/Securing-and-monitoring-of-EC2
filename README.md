@@ -222,14 +222,3 @@ sudo systemctl restart sshd
 This lab demonstrates foundational AWS EC2 hardening techniques aligned with cloud security best practices. These controls significantly reduce attack surface and improve system resilience.
 
 This project reflects real-world baseline security implementation for AWS-hosted workloads.
-
----
-
-If you’d like, I can also generate:
-
-* A more resume-focused project description
-* Terraform version of this lab
-* An advanced version with IAM roles, SSM, and VPC isolation
-* A version aligned to NIST or CIS Benchmarks
-
-Just let me know.
