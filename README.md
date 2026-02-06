@@ -44,8 +44,8 @@ By completing this project, you will:
 * Installed tools:
 
   * AWS Management Console access
-  * AWS CLI (optional)
-  * SSH client (OpenSSH or PuTTY)
+  * AWS CLI optional
+  * SSH client OpenSSH 
 
 ---
 
@@ -150,15 +150,6 @@ sudo systemctl restart sshd
 
 ---
 
-# 🔥 Exercise 4: Configure Network Security (Security Groups)
-
-1. Go to EC2 → Select instance
-2. Navigate to **Security Tab**
-3. Edit Inbound Rules:
-
-   * Remove `0.0.0.0/0` SSH access (if present)
-   * Allow SSH only from **your IP address**
-4. Review outbound rules (leave default unless restricted use case)
 
 ### ✅ Expected Result
 
@@ -176,8 +167,8 @@ sudo systemctl restart sshd
    * CPUUtilization
 4. Configure:
 
-   * Threshold: > 80%
-   * Duration: 5 minutes
+   * Threshold: > 60%
+   * Duration: 2 minutes
 5. Configure notification (SNS email)
 6. Create alarm
 
